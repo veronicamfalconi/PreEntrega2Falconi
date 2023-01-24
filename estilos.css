@@ -1,0 +1,181 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 110px;
+    width: 100%;
+    background-color: rgb(233, 187, 210);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+.logo{
+    float: left;
+    width: 50%;
+}
+
+.logo__imagen{
+    float: left;
+    width: 15%;
+}
+
+.logo__texto{
+    color: rgb(196, 40, 61);
+    float: left;
+}
+
+.logo__texto span{
+    color: black;
+    font-weight: bold;
+}
+
+.logo__imagen img{
+    width: 100%;
+}
+
+.barra{
+    float: right;
+}
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.barra a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.barra a:hover{
+    color:black;
+    text-decoration:underline;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.call{
+    color: rgb(196, 40, 61);
+    width: 40%;
+    float:right;
+}
+
+.call img{
+    width: 50px;
+    height: 50px;
+    ;
+}
+
+.imagen{
+    float: left;
+    width: 50%;
+    padding: 20px 20px 20px 20px;
+    margin: 70px 30px 0px 50px;
+    background-color: rgb(255, 252, 252);
+    box-shadow: 0 0 5px black;
+    text-align: center;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(233, 187, 210);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+}
+
+.logo{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: left; 
+}
+
+.logo__imagen{
+    /* float: left; */
+    width: 12%;
+}
+
+.logo__texto{
+    color: rgb(196, 40, 61);
+    /* float: left; */
+    padding-top: 10px;
+}
+
+.logo__texto span{
+    color: black;
+    font-weight: bold;
+}
+
+.logo__imagen img{
+    width: 100%;
+}
+
+.barra{
+    float: right;
+}
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.barra a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.barra a:hover{
+    color:rgb(255, 0, 43);
+    text-decoration:underline;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.call{
+    color: rgb(196, 40, 61);
+    width: 40%;
+    float:right;
+}
+
+.call img{
+    width: 50px;
+    height: 50px;
+    ;
+}
+
+.imagen{
+    float: left;
+    width: 50%;
+    padding: 20px 20px 20px 20px;
+    margin: 70px 30px 0px 50px;
+    background-color: rgb(255, 252, 252);
+    box-shadow: 0 0 5px black;
+    text-align: center;
+}
